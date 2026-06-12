@@ -1,0 +1,29 @@
+colorScheme = "fire"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+enableSearch = true
+enableCodeCopy = true
+
+[header]
+  layout = "fixed-fill-blur"
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  showRecentItems = 5
+  showMoreLink = false
+
+[article]
+  showDate = true
+  showReadingTime = true
+  showTableOfContents = true
+  showBreadcrumbs = true
+  showAuthor = false
+
+[list]
+  showCards = true
+  showBreadcrumbs = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5

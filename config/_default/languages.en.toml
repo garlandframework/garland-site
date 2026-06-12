@@ -1,0 +1,8 @@
+title = "Garland"
+locale = "en"
+weight = 1
+
+[params]
+  displayName = "EN"
+  description = "Type-safe pipeline testing for Java microservices"
+  author = { name = "Garland Framework", links = [ { github = "https://github.com/garlandframework" } ] }

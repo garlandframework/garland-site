@@ -25,6 +25,10 @@ Pipeline.given(TestUserRequests.createUser(expected))
 
 One pipeline. One test. HTTP response, Postgres, Kafka, and MongoDB — all verified.
 
+{{< button href="/docs/tutorials/try-it/" >}}Try the demo in 5 minutes{{< /button >}}
+&nbsp;
+{{< button href="/docs/tutorials/quickstart/" >}}Quick Start{{< /button >}}
+
 ## Add to your project
 
 ```xml
@@ -43,4 +47,4 @@ Available modules: `garland-http`, `garland-postgres`, `garland-kafka`, `garland
 - [GitHub](https://github.com/garlandframework/garland)
 - [Demo project](https://github.com/garlandframework/garland-demo)
 - [Maven Central](https://central.sonatype.com/search?q=g:dev.garlandframework)
-- [Quick start →](/docs/quickstart/)
+- [Quick start →](/docs/tutorials/quickstart/)

@@ -1,0 +1,5 @@
+baseURL = "https://garlandframework.dev/"
+title = "Garland"
+theme = "blowfish"
+locale = "en-us"
+paginate = 10
