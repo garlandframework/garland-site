@@ -3,31 +3,27 @@ title: "Garland"
 description: "Garland is a Java library for writing integration tests as type-safe pipelines — assert HTTP, PostgreSQL, Kafka, and MongoDB in a single chain, with automatic retry and no mocks"
 ---
 
-## What is Garland?
+Mocking the database, the event broker, and the projection store gives you test coverage that may not survive contact with production. Garland verifies the real stack: HTTP, PostgreSQL, Kafka, and MongoDB in a single type-safe pipeline, no mocks needed.
 
-Garland is a Java library for writing integration tests as type-safe pipelines.
-Each step transforms and passes data to the next. The compiler enforces the chain —
-if a step returns the wrong type, the build fails.
+{{< button href="/docs/tutorials/try-it/" >}}Try the demo in 5 minutes{{< /button >}}
+&nbsp;
+{{< button href="/docs/tutorials/quickstart/" >}}Quick Start{{< /button >}}
 
 ```java
 UserDto expected = TestUsers.defaultUser();
 
 Pipeline.given(TestUserRequests.createUser(expected))
-        .then(httpClient.makeCall(201, UserDto.class))
-        .then(Verify.matching(expected))
+        .then(httpClient.makeCall(201, UserDto.class))   // assert 201, deserialize response
+        .then(Verify.matching(expected))                 // assert response body
         .then(Verify.allOf(
-                UserMapper.toEntity().andThen(postgresClient.findByFields()),
-                UserMapper.toEvent().andThen(kafkaClient.consumeMatching(UserCreatedEvent.class)),
-                UserMapper.toDoc().andThen(mongoClient.findByFields())
+                UserMapper.toEntity().andThen(postgresClient.findByFields()),                      // Postgres ✓
+                UserMapper.toEvent().andThen(kafkaClient.consumeMatching(UserCreatedEvent.class)), // Kafka ✓
+                UserMapper.toDoc().andThen(mongoClient.findByFields())                             // MongoDB ✓
         ))
         .execute();
 ```
 
 One pipeline. One test. HTTP response, Postgres, Kafka, and MongoDB — all verified.
-
-{{< button href="/docs/tutorials/try-it/" >}}Try the demo in 5 minutes{{< /button >}}
-&nbsp;
-{{< button href="/docs/tutorials/quickstart/" >}}Quick Start{{< /button >}}
 
 ## Add to your project
 
