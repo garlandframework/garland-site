@@ -3,7 +3,7 @@ title: "How to Run Tests"
 date: 2026-06-10
 description: "Start the demo stack and run the test suite"
 build:
-  list: never
+  list: local
 ---
 
 ## Prerequisites

@@ -3,7 +3,7 @@ title: "garland-core"
 date: 2026-06-09
 description: "Pipeline DSL for Java integration tests — Step, Verify, Retry, and ResourceTracker reference"
 build:
-  list: never
+  list: local
 ---
 
 `garland-core` defines the primitives every other module is built on. It has no external dependencies beyond SLF4J for logging.

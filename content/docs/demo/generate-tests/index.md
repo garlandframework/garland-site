@@ -3,7 +3,7 @@ title: "How to Generate Tests"
 date: 2026-06-10
 description: "Generate tests for the orders domain using Claude Code slash commands"
 build:
-  list: never
+  list: local
 ---
 
 The demo ships with Claude Code slash commands that generate Garland tests. The orders domain — a fully implemented API with no tests — is the blank canvas to practice with.

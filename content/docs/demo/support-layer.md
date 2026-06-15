@@ -3,7 +3,7 @@ title: "Support layer"
 date: 2026-06-10
 description: "Factories, mappers, shared base test, and connection config in the demo test suite"
 build:
-  list: never
+  list: local
 ---
 
 The support layer lives in `tests/src/test/java/dev/garlandframework/demo/tests/support/`. It contains everything the test classes depend on but does not itself contain any test methods.

@@ -3,7 +3,7 @@ title: "Test layers"
 date: 2026-06-10
 description: "How the demo test suite is structured across endpoint, flow, component, and end-to-end tests"
 build:
-  list: never
+  list: local
 ---
 
 The demo suite is organized into four layers. Each layer tests a different slice of the system and answers a different question. Tests live in `tests/src/test/java/dev/garlandframework/demo/tests/`.

@@ -4,7 +4,7 @@ date: 2026-06-10
 weight: 3
 description: "End-to-end guide: create test DTOs and entities, write a mapper, configure PostgresTestClient, and verify database state after an HTTP call in a single pipeline"
 build:
-  list: never
+  list: local
 ---
 
 This page walks through the full setup for asserting that an HTTP call persisted the correct data in PostgreSQL — from reading production classes through to a working pipeline test. All examples are taken from [garland-demo](https://github.com/garlandframework/garland-demo); clone it to run them.

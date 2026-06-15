@@ -4,7 +4,7 @@ date: 2026-06-10
 weight: 2
 description: "How to write happy-path and negative HTTP tests in Java with Garland — status assertion, body matching, validation errors, auth failures"
 build:
-  list: never
+  list: local
 ---
 
 This page covers how to test HTTP endpoints with `HttpTestClient` — from a basic status assertion to auth failures and validation error checking. All examples are taken from [garland-demo](https://github.com/garlandframework/garland-demo) and run against the real stack — clone it to see them execute.

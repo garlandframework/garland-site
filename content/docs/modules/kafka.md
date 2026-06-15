@@ -3,7 +3,7 @@ title: "garland-kafka"
 date: 2026-06-10
 description: "Assert Kafka events in Java integration tests — consume with retry, publish, and match message content"
 build:
-  list: never
+  list: local
 ---
 
 `garland-kafka` provides `KafkaTestClient` — a Kafka consumer and producer wrapped into pipeline steps. It subscribes to one or more topics, retries until the expected event arrives, and asserts the deserialized content. A `publish` step is included for tests that drive the system via Kafka rather than HTTP.

@@ -4,7 +4,7 @@ date: 2026-06-10
 weight: 1
 description: "How to create test DTOs for Garland — recreate production types as mutable, builder-enabled classes with nullable fields and Jackson tolerance"
 build:
-  list: never
+  list: local
 ---
 
 Before writing pipeline tests you need test DTOs — classes that mirror your production types but are shaped for test use. This page explains what to create and why.
