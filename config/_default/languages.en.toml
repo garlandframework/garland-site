@@ -1,8 +1,8 @@
-title = "Garland"
+title = "Garland — Java Integration Testing Framework"
 locale = "en"
 weight = 1
 
 [params]
   displayName = "EN"
-  description = "Type-safe pipeline testing for Java microservices"
+  description = "Garland is a Java library for writing integration tests as type-safe pipelines — assert HTTP, PostgreSQL, Kafka, and MongoDB in a single chain, with automatic retry and no mocks"
   author = { name = "Garland Framework", links = [ { github = "https://github.com/garlandframework" } ] }
