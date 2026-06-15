@@ -12,7 +12,7 @@ build:
 <dependency>
     <groupId>dev.garlandframework</groupId>
     <artifactId>garland-testng</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 ```

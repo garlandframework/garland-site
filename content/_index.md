@@ -35,7 +35,7 @@ One pipeline. One test. HTTP response, Postgres, Kafka, and MongoDB — all veri
 <dependency>
     <groupId>dev.garlandframework</groupId>
     <artifactId>garland-http</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 ```

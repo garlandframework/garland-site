@@ -26,25 +26,25 @@ Add the modules you need to your test `pom.xml`:
 <dependency>
     <groupId>dev.garlandframework</groupId>
     <artifactId>garland-http</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>dev.garlandframework</groupId>
     <artifactId>garland-postgres</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>dev.garlandframework</groupId>
     <artifactId>garland-kafka</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>dev.garlandframework</groupId>
     <artifactId>garland-mongodb</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 ```
