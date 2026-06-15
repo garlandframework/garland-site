@@ -3,7 +3,7 @@ title: "garland-core — Pipeline, Verify & Retry"
 date: 2026-06-09
 description: "garland-core reference — type-safe Pipeline DSL, Step, Verify, Retry, and ResourceTracker for Java integration testing without mocks"
 build:
-  list: local
+  list: always
 ---
 
 `garland-core` defines the primitives every other module is built on. It has no external dependencies beyond SLF4J for logging.

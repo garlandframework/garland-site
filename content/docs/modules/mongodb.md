@@ -3,7 +3,7 @@ title: "garland-mongodb — Assert MongoDB Documents in Java"
 date: 2026-06-10
 description: "garland-mongodb reference — assert MongoDB projection documents in Java integration tests, with automatic retry and field-level matching"
 build:
-  list: local
+  list: always
 ---
 
 `garland-mongodb` provides `MongoTestClient` — a MongoDB-backed client that produces steps for asserting document state inside pipelines. Its API mirrors `garland-postgres` exactly: the same methods (`findById`, `findByFields`, `countByFields`, `existsById`, `notExistsById`, `persist`, `delete`) with the same semantics — only the store and configuration differ.

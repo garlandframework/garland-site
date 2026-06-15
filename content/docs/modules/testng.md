@@ -3,7 +3,7 @@ title: "garland-testng — TestNG Base Class for Integration Tests"
 date: 2026-06-10
 description: "garland-testng reference — TestNG base class with automatic resource cleanup, suite lifecycle management, and structured test logging for Java integration tests"
 build:
-  list: local
+  list: always
 ---
 
 `garland-testng` provides two classes that wire Garland into TestNG: `AbstractGarlandBaseTest` hooks `ResourceTracker` cleanup into `@AfterMethod` automatically, and `TestNGLogger` replaces TestNG's default output with a structured, colored log that shows class hierarchy, pass/fail/skip indicators, and inline failure messages.

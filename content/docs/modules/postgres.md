@@ -3,7 +3,7 @@ title: "garland-postgres — Assert PostgreSQL State in Java"
 date: 2026-06-10
 description: "garland-postgres reference — assert database state after HTTP calls in Java integration tests, with automatic retry and Hibernate-based field queries"
 build:
-  list: local
+  list: always
 ---
 
 `garland-postgres` provides `PostgresTestClient` — a Hibernate-backed client that produces steps for asserting database state inside pipelines. It holds connection configuration and retry policy, and exposes methods like `findById`, `findByFields`, and `countByFields` that each return a `Step` ready to be passed to `.then()`.

@@ -3,7 +3,7 @@ title: "Generate Java Integration Tests with AI"
 date: 2026-06-10
 description: "Generate Java integration tests with Claude Code — AI slash commands that scan your source code and produce type-safe Garland test suites for HTTP, PostgreSQL, Kafka, and MongoDB"
 build:
-  list: local
+  list: always
 ---
 
 The demo ships with Claude Code slash commands that generate Garland tests. The orders domain — a fully implemented API with no tests — is the blank canvas to practice with.

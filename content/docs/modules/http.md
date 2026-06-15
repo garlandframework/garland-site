@@ -3,7 +3,7 @@ title: "garland-http — Test REST APIs in Java"
 date: 2026-06-09
 description: "garland-http reference — assert HTTP status and response body, handle auth, poll async endpoints, and retry in Java integration tests"
 build:
-  list: local
+  list: always
 ---
 
 `garland-http` provides `HttpTestClient` — a configured HTTP client that produces steps for use in pipelines. It holds configuration (base URL, default headers, retry policy) and exposes methods like `makeCall`, `pollingCall`, and `downloadFile` that each return a `Step` ready to be passed to `.then()`.
