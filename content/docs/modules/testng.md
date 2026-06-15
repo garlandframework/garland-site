@@ -1,7 +1,7 @@
 ---
-title: "garland-testng"
+title: "garland-testng — TestNG Base Class for Integration Tests"
 date: 2026-06-10
-description: "TestNG base class for Java integration tests — automatic cleanup, structured lifecycle logging"
+description: "garland-testng reference — TestNG base class with automatic resource cleanup, suite lifecycle management, and structured test logging for Java integration tests"
 build:
   list: local
 ---

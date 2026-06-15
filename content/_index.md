@@ -1,6 +1,6 @@
 ---
 title: "Garland"
-description: "Type-safe pipeline composition for Java integration testing"
+description: "Garland is a Java library for writing integration tests as type-safe pipelines — assert HTTP, PostgreSQL, Kafka, and MongoDB in a single chain, with automatic retry and no mocks"
 ---
 
 ## What is Garland?

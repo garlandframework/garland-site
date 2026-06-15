@@ -1,7 +1,7 @@
 ---
-title: "garland-core"
+title: "garland-core — Pipeline, Verify & Retry"
 date: 2026-06-09
-description: "Pipeline DSL for Java integration tests — Step, Verify, Retry, and ResourceTracker reference"
+description: "garland-core reference — type-safe Pipeline DSL, Step, Verify, Retry, and ResourceTracker for Java integration testing without mocks"
 build:
   list: local
 ---

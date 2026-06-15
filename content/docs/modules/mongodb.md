@@ -1,7 +1,7 @@
 ---
-title: "garland-mongodb"
+title: "garland-mongodb — Assert MongoDB Documents in Java"
 date: 2026-06-10
-description: "Assert MongoDB documents in Java integration tests — query, retry, and test data setup"
+description: "garland-mongodb reference — assert MongoDB projection documents in Java integration tests, with automatic retry and field-level matching"
 build:
   list: local
 ---

@@ -1,7 +1,7 @@
 ---
-title: "garland-kafka"
+title: "garland-kafka — Assert Kafka Events in Java"
 date: 2026-06-10
-description: "Assert Kafka events in Java integration tests — consume with retry, publish, and match message content"
+description: "garland-kafka reference — assert Kafka events in Java integration tests without Thread.sleep, with automatic retry and message field matching"
 build:
   list: local
 ---

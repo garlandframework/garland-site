@@ -1,7 +1,7 @@
 ---
-title: "garland-postgres"
+title: "garland-postgres — Assert PostgreSQL State in Java"
 date: 2026-06-10
-description: "Assert PostgreSQL state in Java integration tests — query, retry, and test data setup via Hibernate"
+description: "garland-postgres reference — assert database state after HTTP calls in Java integration tests, with automatic retry and Hibernate-based field queries"
 build:
   list: local
 ---

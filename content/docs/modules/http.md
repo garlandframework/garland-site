@@ -1,7 +1,7 @@
 ---
-title: "garland-http"
+title: "garland-http — Test REST APIs in Java"
 date: 2026-06-09
-description: "Test HTTP APIs in Java integration tests — status assertion, deserialization, auth, polling, and retry"
+description: "garland-http reference — assert HTTP status and response body, handle auth, poll async endpoints, and retry in Java integration tests"
 build:
   list: local
 ---
