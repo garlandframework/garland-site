@@ -15,7 +15,7 @@ Otherwise, keep reading to understand the setup step by step.
 
 ## Requirements
 
-- Java 21+
+- Java 17+
 - Maven 3.8+
 
 ## Add dependencies

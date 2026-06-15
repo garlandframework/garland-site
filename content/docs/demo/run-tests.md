@@ -8,7 +8,7 @@ build:
 
 ## Prerequisites
 
-- Java 21+
+- Java 17+
 - Maven 3.8+
 - Docker and Docker Compose
 

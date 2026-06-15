@@ -9,7 +9,7 @@ Clone the demo project and run the full test suite against a real stack — no c
 
 ## Requirements
 
-- Java 21+
+- Java 17+
 - Maven 3.8+
 - Docker
 
