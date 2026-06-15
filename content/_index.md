@@ -44,3 +44,4 @@ Available modules: `garland-http`, `garland-postgres`, `garland-kafka`, `garland
 - [Demo project](https://github.com/garlandframework/garland-demo)
 - [Maven Central](https://central.sonatype.com/search?q=g:dev.garlandframework)
 - [Quick start →](/docs/tutorials/quickstart/)
+- [Contact](mailto:garland.test.tool@gmail.com)
