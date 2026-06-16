@@ -1,9 +1,9 @@
 ---
 title: "Why I Built Garland"
-description: "Laid off after training AI to write tests, then I built a typed-chain testing framework that keeps AI-generated tests honest — and changed how I think about the SDET role."
+description: "Laid off after training AI to write tests, I built a typed-chain Java framework that keeps AI-generated tests honest — and changed how I see the SDET role."
 date: 2026-06-16
 draft: false
-tags: ["java", "testing", "ai", "microservices"]
+tags: ["java", "testing", "AI", "microservices"]
 ---
 
 ## How it started
@@ -68,5 +68,6 @@ Those are questions a regular SDET has no time to think about, because they're t
 
 ## Links
 
+- [Quick start](/docs/tutorials/quickstart/)
 - [GitHub](https://github.com/garlandframework/garland)
 - [Demo project](https://github.com/garlandframework/garland-demo)
