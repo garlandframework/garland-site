@@ -3,3 +3,4 @@ title = "Garland — Java Integration Testing Framework"
 theme = "blowfish"
 locale = "en-us"
 paginate = 10
+enableRobotsTXT = true
