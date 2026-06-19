@@ -25,6 +25,8 @@ Pipeline.given(TestUserRequests.createUser(expected))
 
 One pipeline. One test. HTTP response, Postgres, Kafka, and MongoDB — all verified.
 
+{{< youtube bN6O8ek2TjQ >}}
+
 ## Add to your project
 
 ```xml
