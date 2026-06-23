@@ -3,11 +3,11 @@ title: "Garland"
 description: "Garland is a Java library for writing integration tests as type-safe pipelines — assert HTTP, PostgreSQL, Kafka, and MongoDB in a single chain, with automatic retry and no mocks"
 ---
 
-Verifying a Java microservice means checking the HTTP response, the database row, the Kafka event, and the MongoDB projection — usually with four different clients, four different assertion styles, and `Thread.sleep` everywhere. Garland puts all of it in a single type-safe pipeline.
+Verifying a Java microservice end-to-end means checking the HTTP response, the database row, the Kafka event, and the MongoDB projection — for real, without mocking any of it. Usually that means four different clients, four assertion styles, and `Thread.sleep` holding it all together. Garland puts all of it in a single type-safe pipeline, with built-in retry instead of sleep calls.
+
+If you know Citrus, think of Garland as the same goal — testing real systems instead of mocks — with a fluent, type-safe Java API instead of XML configuration, and no separate DSL to learn.
 
 {{< button href="/docs/tutorials/try-it/" >}}Try the demo in 5 minutes{{< /button >}}
-&nbsp;
-{{< button href="/docs/tutorials/quickstart/" >}}Quick Start{{< /button >}}
 
 ```java
 UserDto expected = TestUsers.defaultUser();

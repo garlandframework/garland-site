@@ -28,6 +28,12 @@
   weight = 5
 
 [[main]]
+  name = "Quick Start"
+  url = "/docs/tutorials/quickstart/"
+  parent = "docs"
+  weight = 6
+
+[[main]]
   name = "How-to"
   url = "/docs/how-to/"
   parent = "docs"
